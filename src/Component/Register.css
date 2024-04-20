@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+.card{
+    border: 1px solid black;
+    width: 450px;
+    height: 650px;
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./eA0yDPZiKHK6lqM_640.jpg") ;
+    color: beige;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.75);
+    background-size: cover;
+    overflow: hidden;
+    margin: 0 auto;
+  backdrop-filter: rgba(0, 0, 0, 0.493);
+       
+}
+@media(max-width:40rem){
+    .card{
+        width: 350px;
+        height: 100%;
+ 
+    
+    }
+    .container{
+        padding: 25px;
+    }
+    .btn{
+        margin: 20px;
+
+    }
+
+   
+
+
+    }
+    
+
+
+h1{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+form{
+    display: block;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    gap: 5px;
+}
+.form-group{
+    font-size: 10px;
+    text-shadow: 0 0 2px rgba(255,255,255,0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    gap: 10px;
+    padding-top: 10px;
+  
+ 
+    
+}
+label{
+    direction: ltr;
+    margin: 0 45px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.form-control{
+    background: rgba(255,255,255,0.3);
+   height: 50px;
+    line-height: 50px;
+    border-radius: 20px;
+    padding: 0 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: white;
+    height: 35px;
+    width: 300px;
+    margin: 0 auto;
+}
+.card-footer{
+    display: flex;
+    flex-wrap: inherit;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn{
+   
+    
+
+
+    background-color: rgba(45,126,231);
+    height: 40px;
+    width: 300px;
+    line-height: 15px;
+    margin-top: 40px;
+ 
+    border-radius: 40px;
+    border: none;
+  
+    box-shadow: 0 0 5px rgba(0,0,0.3);
+    color: white;
+    font-size: 12px;
+
+    cursor: pointer;
+    
+}
+.btn-succes{
+    background-color: rgba(45, 126, 231, 0.411);
+    padding: 5px 10px;
+   
+    border-radius: 40px;
+    text-decoration: wavy;
+
+    color: rgb(255, 255, 255);
+    height: 40px;
+
+   
+    
+
+
+    
+
+}
+span{
+    color: red;
+}
