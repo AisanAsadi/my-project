@@ -5,9 +5,11 @@ import Register from './Component/Register';
 import Home from './Component/Home';
 import Login from './Component/Login';
 import Store from './Component/Store/Store';
+
 function App() {
   return (
     <div className="App">
+     
 
       <BrowserRouter>
         <Routes>  
@@ -22,7 +24,7 @@ function App() {
       
       
       </BrowserRouter>
-      
+   
     </div>
   );
 }

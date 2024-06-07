@@ -1,45 +1,103 @@
 .home{
-    background-color:#4d1eb9 ;
-}
-.header ul{
+
+    padding-bottom: 100px;
    
+ 
+}
+.all{
+background-color: rgb(12, 0, 32);
+}
+.header {
+ 
     display: flex;
-    gap: 10px;
     direction: rtl;
-    justify-content: left;
+    justify-content: right;
     flex-grow: 1;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background:linear-gradient(rgba(0, 0, 0, 0.411),rgb(24,26,32));
+
+}
+.nav{
+
+    display: flex;
+    
+  
+    direction: rtl;
+    justify-content: right;
+    flex-grow: 1;
+  
+
 
     cursor: pointer;
     text-decoration: none;
-    padding: 15px 15px; 
-    color: black;
 
+    color: rgb(255, 255, 255);
 }
-.header ul a{
+.nav a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    direction: rtl;
+    padding:  20px 5px;
+    height: 80px;
+    width: 100px;
+    font-weight: 700;
+    
+
+   
+}
+.nav a:hover{
+    background-color: #b1b1b1;
+    color: #000000;
+
+  
+ 
+}
+
+
+
+
+
+.home-text{
+    border: 1px solid 	#ffffff;
+    color: #ffffff;
+    font-size: 30px;
+    background:linear-gradient(  rgb(24,26,32),rgba(0, 0, 0, 0.411));
+
+
+
 
 }
-.home-text{
-    border: 1px solid purple;
-    color: white;
-    font-size: 30px;
+.BODY_TEXT{
+    line-height: 70px;
+    padding: 100px;
 }
+.HEADER_TEXT{
+ 
+    font-size: 45px;
+    margin: 0 auto;
+    padding-top: 50px;
+   
+
+}
+
+
+
 .main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     padding: 160px 35px;
-    background-color: rgb(255, 255, 255);
+    background:linear-gradient(rgba(0, 0, 0, 0.411),rgb(24,26,32));
+
    
  
 
 }
 .main-table{
-    background-color: white;
-    border: 1px solid purple;
+
+    border: 1px solid rgba(180, 180, 180, 0.603);
     color: white;
     width: 30%;
     padding: 30px;
@@ -49,23 +107,28 @@
     border-radius: 10px;
 
 }
+.main-table:hover{
+    background-color: #858585c9;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .category  {
-    color: #b91e45;
+
     font-weight: 500;
     font-size: 25px;
 }
 .time{
     font-family: 20px;
     font-weight: 500;
-    color: #4d1eb9;
+
 
 }
 .cost {
     font-size: 20px;
-    color: rgb(255, 30, 67)
+
 }
 .inf{
-    color: #b91e45;
+ 
     font-weight: 500;
     font-size: 15px;
 }
